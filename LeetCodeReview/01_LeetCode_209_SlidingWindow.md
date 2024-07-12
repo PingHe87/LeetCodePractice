@@ -57,10 +57,10 @@ class Solution {
 
 1. **I**nteger.**MAX_VALUE**--The capital charactor
    **Extension**:
-   Integer.MIN_VALUE:(-2^31).
-   Integer.MAX_VALUE:(2^31 - 1).
-   Byte.MIN_VALUE: (-128).
-   Byte.MAX_VALUE: (127).
+   - Integer.MIN_VALUE:(-2^31).
+   - Integer.MAX_VALUE:(2^31 - 1).
+   - Byte.MIN_VALUE: (-128).
+   - Byte.MAX_VALUE: (127).
 2. nums.**length**:
    **Extension**:
 
@@ -116,3 +116,4 @@ class Solution {
 3. **If or While** statement:
    - The if statement is used to execute a block of code **only once** if a specified condition is true.
    - Use while: When you need to **repeatedly execute a block of code** as long as a condition remains true.
+4. nums[right]: Be careful of the nums[ ] not ( ).
