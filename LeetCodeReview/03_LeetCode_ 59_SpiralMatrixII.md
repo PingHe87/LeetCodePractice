@@ -41,10 +41,10 @@ look at the example.
 
 1. create a new 2D array to store the result.
    - L = T = 0; R = B = n-1 = 3.
-2. store the value from L to R, T to B, R to L, B to T.
-   2.1 the row 0: from [0][0] to [0][3] (L <= R), val ++, T++; -> T starts from 1 now.
-   2.2 the column 3: from[1][3] to [3][3] (T <= B), val ++; R--; -> R starts from 2 now.
-   2.3 the row 3: **REVERSE:** from[2][3] to [0][3](R >= L), val++; B--; -> B starts from 3 now.
+2. store the value from L to R, T to B, R to L, B to T.  
+   2.1 the row 0: from [0][0] to [0][3] (L <= R), val ++, T++; -> T starts from 1 now.  
+   2.2 the column 3: from[1][3] to [3][3] (T <= B), val ++; R--; -> R starts from 2 now.  
+   2.3 the row 3: **REVERSE:** from[2][3] to [0][3](R >= L), val++; B--; -> B starts from 3 now.  
    2.4 the column 0: **REVERSE:** from [2][0] to[1][0](B >= T), val++; L++; -> L starts from 2 now.
 3. Be careful with the order in R to L and B to T.
 
