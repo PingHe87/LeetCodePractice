@@ -14,9 +14,17 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 // head = [1, 2, 3]
 1 -> 2 -> 3 -> null
 // 1 would be the last one;
+// target: prev = [3, 2, 1]
 prev -> 1 -> 2 -> 3 -> null
- ^      ^
-null   cur
+ ^
+null
+//temp = cur.next;
+//cur.next = prev;
+//prev = cur;
+//cur = temp;
+prev -> 1 -> 2 -> 3 -> null
+        ^
+       temp
 ```
 
 ## Solution
